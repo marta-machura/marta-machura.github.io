@@ -96,7 +96,7 @@ a.active, a:hover{
         left: 0;
     }
 }
-h1{
+.row h1{
     font-size: 40px;
     font-weight: bold;
     padding: 20px;
@@ -130,9 +130,32 @@ p{
 .links li img{
     width: 50px;
     height: auto;
+    position: relative;
 }
 .links a:hover{
     background-color: transparent;
 }
-
-
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-md-3 img{
+    width: 100%;
+    height: auto;
+    border-radius: 55px;
+    padding-top: 20px;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+}
+.techtitle h1{
+    font-size: 18px;
+}
+#techscreenshot{
+    padding: 10px;
+}
+.culturetext{
+    text-align: left;
+    margin-left: 150px;
+}
