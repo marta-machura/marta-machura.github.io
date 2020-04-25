@@ -14,6 +14,7 @@ body{
 p{ 
     font-size: 18px;
     line-height: 25px;
+    padding: 0px 20px 0px 20px;
 }
 h3{
     padding: 10px 0px 10px 0px;
@@ -110,12 +111,19 @@ a.active, a:hover{
     padding: 20px;
     text-align: center;
 }
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
 .blogdate{
-    padding: 20px;
+    padding: 25px 40px 25px 40px;
     text-align: center;
 }
 .entry{
     padding: 20px;
+    text-align: left;
 }
 div{
    width: 100%;
@@ -125,11 +133,24 @@ div{
 section{
     display: inline;
 }
+.box{
+    padding: 30px;
+    border-width: 1px;
+    border-color: white!important;
+}
 
 
-.links{
-    text-align: right;
+.links a{
+    text-align: center;
     font-size: 18px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
 }
 .links li{
     display: inline;
@@ -191,11 +212,17 @@ section{
 #zwee{
     width: 75%;
     height: auto;
-    margin: 0 15 0 15px;
+    margin: 0 40 0 40px;
     border-radius: 55px;
+    padding: 20px;
 }
 #techscreenshot{
     padding: 10px;
+}
+#culture2{
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    list-style-type: square!important;
 }
 footer{
     padding: 10px;
