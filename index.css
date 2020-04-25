@@ -8,7 +8,15 @@
 body{
     font-family: Montserrat;
     color: white;
-    background: linear-gradient(to right,rgba(232, 77, 247, 0.72),rgba(83, 120, 224, 0.72) 50%,rgba(16, 159, 202, 0.72)), url('https://images.pexels.com/photos/3634855/pexels-photo-3634855.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background: linear-gradient(to right,rgba(72, 50, 85, 0.72),rgba(136, 89, 223, 0.72) 50%,rgba(113, 87, 131, 0.603)), url('https://images.pexels.com/photos/3634855/pexels-photo-3634855.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    /*background: rgba(94, 60, 218, 0.445);*/
+}
+p{ 
+    font-size: 18px;
+    line-height: 25px;
+}
+h3{
+    padding: 10px 0px 10px 0px;
 }
 nav{
     background: linear-gradient(to right,rgba(79, 157, 247, 0.72),rgba(148, 157, 241, 0.72) 50%,rgba(248, 64, 122, 0.72)), url('https://images.pexels.com/photos/3634855/pexels-photo-3634855.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
@@ -96,11 +104,18 @@ a.active, a:hover{
         left: 0;
     }
 }
-.row h1{
+.hometitle{
     font-size: 40px;
     font-weight: bold;
     padding: 20px;
     text-align: center;
+}
+.blogdate{
+    padding: 20px;
+    text-align: center;
+}
+.entry{
+    padding: 20px;
 }
 div{
    width: 100%;
@@ -110,15 +125,8 @@ div{
 section{
     display: inline;
 }
-#martapic{
-    width: 25%;
-    height: auto;
-    margin: 0 15 0 15px;
-    border-radius: 55px;
-}
-p{ 
-    font-size: 18px;
-}
+
+
 .links{
     text-align: right;
     font-size: 18px;
@@ -145,17 +153,64 @@ p{
     border-radius: 55px;
     padding-top: 20px;
 }
-footer{
-    position: relative;
-    bottom: 0px;
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .right p{
+      text-align: right;
+  }
+
+#martapic{
+    width: 75%;
+    height: auto;
+    margin: 0 15 0 15px;
+    border-radius: 55px;
 }
-.techtitle h1{
-    font-size: 18px;
+#zwee{
+    width: 75%;
+    height: auto;
+    margin: 0 15 0 15px;
+    border-radius: 55px;
 }
 #techscreenshot{
     padding: 10px;
 }
-.culturetext{
-    text-align: left;
-    margin-left: 150px;
+footer{
+    padding: 10px;
+  text-align: center;
+  background: rgba(133, 95, 238, 0.526);
+  margin-top: 20px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
 }
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
