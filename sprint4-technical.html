@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="styles/bs-css/bootstrap.css" type="text/css">
+</head>
+<body>
+    <div class="box">
+    <nav>
+        <input type="checkbox" id="check">
+       <label for="check" class="checkbtn">
+           <i class="fas fa-bars"></i>
+       </label>
+        <label class="logo"><img src="https://marta-machura.github.io\styles\resources\images\martawhitelogo.png">
+        </label>
+        <ul>
+            <li><a href="https://marta-machura.github.io/index.html">Home</a></li>
+            <li><a href="https://marta-machura.github.io/sprint1-cultural.html">Cultural Blog</a></li>
+            <li><a href="https://marta-machura.github.io/sprint2-technical.html">Tech Blog</a></li>
+        </ul>
+    </nav>
+    <section class="row">
+        <div class="column left">
+        </div>
+        <div class="column middle">
+            <h1 class="hometitle">Approaches to Problem-Solving</h1>
+            <h2 class="subtitle">Sprint 4</h2>
+            <h3 class="blogdate">8/5/2020</h3>
+                <br>
+                <h3 class=”blogdate”>A time when I got blocked on a simple problem, and how I solved it:</h3>
+
+<p class=”entry”>In hindsight, there were a few moments, where I was one symbol or one line away from solving a problem, but the biggest, and most embarrassing, moment was when I let myself get confused by the order of tests to complete in the kata for fizzbuzz. One of the first tests to pass was to return an array. So I inserted ‘return arr’ into the function, and then moved on to the next test. For that, I also completed the relating code in sequence, going step by step with the tests, placing everything underneath each other. When I tried to complete the first test for ‘fizz’, it just wouldn’t return anything of what I had put in my for-loop! I was so confident with my solution and felt so stuck that I left it overnight (after hours of staring at it, researching other ways how to fizz it up and dragging my husband into my dilemma)! The next day, I still couldn’t find the fault in the for-loop, and was totally oblivious of the fact that my only return statement at the time was in the totally wrong position!! The error message also totally led me astray, as it pointed to having received [3] instead of [‘Fizz’] - ‘ok, it got a 3 from somewhere…’, I thought to myself, not reflecting on what that ‘3’ was and where it came from. But then it dawned upon me… a little side-note from last sprint’s javaScript basics: ‘Functions are always executed from top to bottom’ - so how would my only return statement magically be able to predict what I’ve told it to do after it got executed? HUH? And, oh my god, the [3] it’s getting are the three letters from the (arr) argument in the function declaration!! Like I said, a rather embarrassing, but important moment. It’s important to be super clear on the basics! In this painful journey, I got the opportunity, though, to explain each line to my husband, who hadn’t done javaScript in a while - so, it was a sort of rubber duck method, where I also realised at some stages that I still need to let certain things sink in more. All in all, being stuck felt horrible and sometimes even hopeless - but the realisation that it was a very simple thing that caused my problem gave me so much relief (and a new sense of alertness for my code, as well - which, I guess, is an important learning I took from this, as well)!</p><br><br>
+
+
+<h3 class=”blogdate”>A time when I solved a problem in an elegant way</h3>
+
+<p class=”entry”>Still waiting for that to happen! In all seriousness, though, when I got to the in-built methods, fortune had it that I had just completed a revision exercise on the .join method a day or so before, so I surprised myself by not being stuck at the concatMyArray function. Here, I benefitted from how fresh my learning still was in my memory for that method and how effective repetition is. For the first time in my javaScript learning journey, I felt like I may get ‘all this’, eventually! I actually got really excited! More of this, please!</p><br>
+
+<h3 class=”blogdate”>How confident am I, on a scale from 1-10, with the problem solving techniques and processes?</h3>
+
+<h4 class=”blogdate”>Pseudocode: 5/10</h4>
+<p class=”entry”>This is still a hit-and-miss for me, as I sometimes will get to the same conclusion using a wrong approach (e.g. when I don’t abstract to the extent necessary), but it helps me recognise gaps in understanding, for sure.</p><br>
+
+<h4 class=”blogdate”>Trying something: 3/10</h4>
+<p class=”entry”>Even though it sometimes works, I don’t feel like it’s insightful enough for me yet, if I’m not 100% clear on the method I’m trying. With more practice, I’ll definitely get more intentional with trying something.</p><br>
+
+<h4 class=”blogdate”>Rubber ducky method / looping with someone: 8/10</h4>
+<p class=”entry”>I did more looping than strict rubber-ducking with another person, and that was very useful for comprehension and solidifying brittle knowledge. This was definitely helpful!</p>
+<br>
+<h4 class=”blogdate”>Reading error messages: 7/10 (when done right!)</h4>
+<p class=”entry”>I had some good and some bad times with reading error messages! It’s sometimes easy to misinterpret a failed test’s output.</p><br>
+
+<h4 class=”blogdate”>Console.logging: 5/10</h4>
+<p class=”entry”>Definitely helpful for certain functions (like the capitalise one), but haven’t utilised it across the board, as I don’t always need it or know when it would be useful.</p><br>
+
+<h4 class=”blogdate”>Googling: 8/10</h4>
+<p class=”entry”>My first go-to after coming up with my own thoughts first. The disadvantage for our purposes is that often, the solution is given away in full, so I have to be careful of not over-using this right now, while we’re learning. But later, in our coding journeys, this will be the main resource for problem-solving!</p><br>
+
+<h4 class=”blogdate”>Asking your peers for help: 7/10</h4>
+<p class=”entry”>It took me a bit of courage to ask within our Foundations channel of over 150 potential readers. I felt like asking a silly question, but every time I did ask for help, I got really good pointers and most often just the right amount of nudging me into the right direction. The only reason I’m subtracting points is because of the slightly uncomfortable feeling of overcoming the barrier to ask ‘in public’. I’ve since also engaged more with my cohort-mates in direct messages, and that’s always returning a good insight, as well!</p><br>
+
+<h4 class=”blogdate”>Asking coaches for help: n/a</h4>
+<p class=”entry”>This would usually be my step once I have exhausted all my other processes, including asking peers for help. So far, I haven’t had any actual use of it, but can imagine that it’s super eye-opening to go through a problem together, line by line.</p><br>
+
+<h4 class=”blogdate”>Improving your process with reflection: 8/10</h4>
+<p class=”entry”>Especially after reaching the solution to a problem, going through the task or function again with the newly-found knowledge is helping make things settle a bit more deeply. Also, I found, reflection comes quite naturally, especially, when I left problems overnight. Before falling asleep, I would go through all steps I had so far, and try to find the fault in there, as well as potential further steps.</p><br> 
+
+                <br>
+        </div>
+        <div class="column right">
+            <span class="box">
+                <div class="links"><a href="https://marta-machura.github.io/sprint2-technical.html">SPRINT 2 TECHNICAL BLOG</a>
+                    <a href="https://marta-machura.github.io/sprint3-technical.html">SPRINT 3 TECHNICAL BLOG</a>
+                </div></span>
+        </div>
+
+    </section>
+    <footer class="row">
+        <section class="col-md3 links">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/marta-machura-21740321/"><img src="https://marta-machura.github.io/styles/resources/images/kisspng-linkedin-logo-computer-icons-business-symbol-linkedin-icon-5ab1765660baa8.1191823015215796063962.png" alt="linkedin logo"></a></li>
+                <li><a href="https://github.com/marta-machura"><img src="https://marta-machura.github.io/styles/resources/images/GitHub-Mark-120px-plus.png" alt="github logo"></a></li>
+                <li><a href="https://www.facebook.com/marta.machura"><img src="https://marta-machura.github.io/styles/resources/images/Clipart-Email-10048007.png" alt="facebook logo"></a></li>
+            </ul>
+        </section>
+
+    </footer>
+</div> <!--end of box div-->
+</body>
+</html>
